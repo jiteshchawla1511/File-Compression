@@ -25,7 +25,7 @@ First open the director in which the code is present
 *For Mac Users
 Here the input.txt file is the one we are compressing 
 ```bash
-g++-12 encode.cpp huffmanCoding.cpp -o main
+g++-12 encode.cpp huffmancoding.cpp -o main
 ./main input.txt compressFile.huf
 ```
 
@@ -36,6 +36,6 @@ First open the director in which the code is present
 *For Mac Users
 Here the output.txt file where we will get the decompressed file 
 ```bash
-g++-12 decode.cpp huffmanCoding.cpp -o main
+g++-12 decode.cpp huffmancoding.cpp -o main
 ./main compressFile.huf output.txt
 ```
